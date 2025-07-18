@@ -14,7 +14,7 @@ This project focuses on analyzing unemployment trends across India using time se
 - Time Series Analysis and Visualization
 
 ## 🧰 Tools & Libraries
-- Python 3.x
+- Python 
 - Pandas
 - Matplotlib
 - Seaborn
