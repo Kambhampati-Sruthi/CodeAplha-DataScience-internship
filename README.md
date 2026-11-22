@@ -1,81 +1,74 @@
-# 🚗 Car Price Predictor
+# 📊 Data Science Internship Projects – CodeAlpha
 
-## 📖 Overview  
-This project predicts the resale price of a car using machine learning algorithms based on key vehicle attributes. It helps sellers estimate a competitive price and empowers buyers with better negotiation insights.
-
----
-
-## 🔍 Features Used  
-- **Present Price (in lakhs)**  
-- **Kilometers Driven**  
-- **Number of Previous Owners**  
-- **Car Age (in years)**  
-- **Brand Reputation Score** (scale from 0.0 to 2.0)
+A collection of end-to-end data science, exploratory data analysis (EDA), and machine learning projects completed during my Data Science virtual internship at **CodeAlpha**.
 
 ---
 
-## 📊 Sample Input Example  
-| Feature                  | Value       |
-|--------------------------|-------------|
-| Present Price            | ₹5.15 lakh  |
-| Kilometers Driven        | 500         |
-| Number of Previous Owners| 0           |
-| Car Age                  | 0 years     |
-| Brand Reputation Score   | 0.50 → 1.50 |
-
-> 💰 **Estimated Selling Price:** ₹3.51 lakh
+## 📑 Table of Contents
+1. [Car Price Predictor](#-1-car-price-predictor)
+2. [Iris Flower Classification](#-2-iris-flower-classification)
+3. [Unemployment Time Series Analysis in India](#-3-unemployment-time-series-analysis-in-india)
+4. [Tech Stack](#-tech-stack)
 
 ---
 
-## 🛠️ Technologies Used  
-- Python  
-- Pandas, NumPy  
-- Scikit-learn  
-- Jupyter Notebook  
+## 🚗 1. Car Price Predictor
+
+### 📖 Overview
+Predicts the resale value of a used car using supervised machine learning regression models based on key vehicle attributes. This tool helps sellers estimate competitive pricing and equips buyers with data-backed negotiation insights.
+
+### 🔍 Features Used
+- **Present Price (in lakhs)**
+- **Kilometers Driven**
+- **Number of Previous Owners**
+- **Car Age (in years)**
+- **Brand Reputation Score** (scale from `0.0` to `2.0`)
+
+### 📊 Sample Prediction
+| Feature | Value |
+| :--- | :--- |
+| **Present Price** | ₹5.15 lakh |
+| **Kilometers Driven** | 500 km |
+| **Number of Previous Owners** | 0 |
+| **Car Age** | 0 years |
+| **Brand Reputation Score** | 0.50 → 1.50 |
+
+> 💰 **Estimated Selling Price:** **₹3.51 lakh**
 
 ---
 
-# Iris Flower Classification 🌼
+## 🌼 2. Iris Flower Classification
 
-This project showcases a supervised machine learning model built to classify iris flowers into three species—Setosa, Versicolor, and Virginica—based on their petal and sepal dimensions. Developed during my Data Science internship, the project demonstrates data preprocessing, model training, evaluation, and visualization using Python and popular libraries like Pandas, Scikit-learn, and Matplotlib.
+### 📖 Overview
+A supervised multi-class classification model built to categorize iris flowers into three species—**Setosa**, **Versicolor**, and **Virginica**—based on sepal and petal measurements.
 
-🔗 [Watch Demo Video](https://drive.google.com/file/d/1f7NQ-m68FNUmJvUJtMYZnTHjF4LKXWmm/view?usp=sharing)
-## Demo Video 🎬
+### 🎥 Demo Video
+🔗 [Watch Project Walkthrough on Google Drive](https://drive.google.com/file/d/1f7NQ-m68FNUmJvUJtMYZnTHjF4LKXWmm/view?usp=sharing)
 
-This video walks through the Iris Flower Classification project, highlighting:
-- Dataset overview and feature explanation
-- Data preprocessing steps
-- Model selection and training (e.g., Logistic Regression, SVM, or Decision Tree)
-- Accuracy evaluation and confusion matrix
-- Visualizations of classification results
+### ✅ Key Highlights
+- **Data Preprocessing:** Exploratory analysis, feature inspection, and train-test splitting.
+- **Model Training & Selection:** Evaluated classification algorithms including Logistic Regression, Support Vector Machines (SVM), and Decision Trees.
+- **Evaluation & Visualization:** Assessed performance using accuracy metrics, confusion matrices, and decision-boundary/feature distribution plots.
 
-The demo reflects the practical skills gained during my Data Science internship, including working with real datasets, applying machine learning algorithms, and interpreting model performance.
-## 🎥 Demo Video
+---
 
-Check out the project demo here:  
-[📎 View on Google Drive](https://drive.google.com/file/d/1UrOONjSIAesxULIFxunh3IcVRA5hLJt0/view?usp=sharing)
+## 📈 3. Unemployment Time Series Analysis in India
 
-> This video walks through the unemployment time series visualizations and highlights key patterns and insights.
-# 📊 Unemployment Time Series Analysis in India
+### 📖 Overview
+Analyzes regional and national unemployment rate trends across India using time-series data analysis and statistical visualizations to uncover seasonal patterns and economic spikes.
 
-## 📝 Overview
-This project focuses on analyzing unemployment trends across India using time series visualizations. It includes data collection from reliable sources and clear visual insights to help understand how unemployment rates change over time.
+### 🎥 Demo Video
+🔗 [Watch Project Walkthrough on Google Drive](https://drive.google.com/file/d/1UrOONjSIAesxULIFxunh3IcVRA5hLJt0/view?usp=sharing)
 
-## ✅ Completed Tasks
-- Data Collection from public datasets
-- Time Series Analysis and Visualization
+### ✅ Key Highlights
+- **Data Cleaning & Wrangling:** Handled date-time parsing, regional grouping, and missing value checks on public Indian unemployment datasets.
+- **Time-Series Visualizations:** Built trend line charts, regional comparison plots, and seasonal fluctuation graphs to highlight key spikes over time.
 
-## 🧰 Tools & Libraries
-- Python 
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook / VS Code
+---
 
-## 📂 Dataset
-The dataset includes time-stamped unemployment rate data across different regions in India. Source: [Insert name of data source here].
-
-## 📊 Visualizations
-- Line graphs showing unemployment over time
-- Comparative plots by region or time period
-- Highlighting trends, spikes, and seasonal behaviors
+## 🛠️ Tech Stack
+- **Language:** Python
+- **Data Analysis & Manipulation:** Pandas, NumPy
+- **Machine Learning:** Scikit-learn
+- **Data Visualization:** Matplotlib, Seaborn
+- **Environment:** Jupyter Notebook, VS Code
